@@ -502,11 +502,11 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 #navigation.small-screen #menu-button.menu-opened:after { top: 23px; border: 0; height: 2px; width: 10px; background: #121113; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
 #navigation.small-screen #menu-button.menu-opened:before { top: 23px; background: #121113; width: 10px; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
 #navigation.small-screen .submenu-button { position: absolute; z-index: 99; right: 0; top: 0; display: block; border-left: 1px solid #eee; height: 54px; width: 53px; cursor: pointer; }
-#navigation.small-screen .submenu-button.submenu-opened { }
+/*#navigation.small-screen .submenu-button.submenu-opened { }*/
 #navigation.small-screen ul ul .submenu-button { height: 34px; width: 34px; }
 #navigation.small-screen .submenu-button:after { position: absolute; top: 25px; right: 20px; width: 8px; height: 2px; display: block; background: #111213; content: ''; }
 #navigation.small-screen ul ul .submenu-button:after { top: 15px; right: 13px; }
-#navigation.small-screen .submenu-button.submenu-opened:after { background:; }
+/*#navigation.small-screen .submenu-button.submenu-opened:after { background:; }*/
 #navigation.small-screen .submenu-button:before { position: absolute; top: 22px; right: 23px; display: block; width: 2px; height: 8px; background: #121113; content: ''; }
 #navigation.small-screen ul ul .submenu-button:before { top: 12px; right: 16px; }
 #navigation.small-screen .submenu-button.submenu-opened:before { display: none; }
@@ -781,7 +781,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .box-bg-color { background-color: #f4f6fb; }
 .altenate ul { list-style: none; }
 .altenate ul li { border-bottom: 1px solid #e1e0dd; line-height: 2.5; }
-.box-table { padding: 16px 30px; margin: 0 -15px 15px; border-color:; border: 1px solid #dbdad8; }
+.box-table { padding: 16px 30px; margin: 0 -15px 15px; border: 1px solid #dbdad8; }
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th { border-top: transparent; }
 
 /*--------------------------
@@ -793,10 +793,10 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 /*--------------------------
 10.11  Call To Actions
 --------------------------- */
-.cta-single { }
+/*.cta-single { }*/
 .cta-single-line { background-color: #3d0f82; padding: 40px; border-radius: 8px; }
 .cta-single-line-title { color: #fff; margin-bottom: 0px; line-height: 2; }
-.cta-single-caption { }
+/*.cta-single-caption { }*/
 .cta-boxed { text-align: center; border-radius: 8px; }
 .cta-boxed-content { padding-top: 65px; padding-bottom: 65px; color: #fff; }
 .cta-boxed-title { color: #fff; }
